@@ -25,7 +25,145 @@
     background-color:black;
     color: greenyellow;
 }
-img{
+
+.jpg img{
+    width: 300px;
+    height: 200px; 
+
+}
+.png img{
     width: 300px;
     height: auto; 
+
+}
+.gif img{
+    width: 300px;
+    height: auto; 
+
+}
+body{
+    background-color:darkslateblue;
+}
+
+
+.navhome {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color:black; 
+    z-index: 1000; 
+}
+
+.navhome ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navhome ul li {
+    display: inline; 
+}
+.navhome ul li a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: rgb(221, 27, 27);
+    text-decoration: none;
+}
+.navegar a{
+    list-style-type: none;
+    padding: 10px ;
+    color:chocolate;
+    text-decoration:none;
+}
+
+.navtable {
+    width: 100%;
+    top: 0; 
+    position: fixed;
+    background-color: black; 
+}
+
+.navtable ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    margin:0;
+    padding: 0;
+    
+}
+
+.navtable ul li {
+    display: inline;
+}
+
+.navtable ul li a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: greenyellow;
+    text-decoration: none; 
+    
+}
+caption{
+    color: greenyellow;
+    font-weight: bold;
+    font-size:200%;
+}
+table {
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    width: 500px; /* Opcional: ajusta el ancho de la tabla según sea necesario */
+}
+
+th, td {
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid wheat; /* Define un borde de 1 píxel sólido para las celdas */
+    padding: 8px; /* Espaciado interno para las celdas */
+    text-align: center; /* Centra el texto dentro de las celdas */
+}
+
+
+.navimages {
+    width: 100%;
+    top: 0; 
+    position: fixed;
+    background-color: black; 
+}
+
+.navimages ul {
+    list-style-type: none; /* Quita los estilos de lista */
+    margin:0;
+    padding: 0;
+    
+}
+
+.navimages ul li {
+    display: inline;
+}
+
+.navimages ul li a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color:darkmagenta;
+    text-decoration: none; 
+    
+}
+.ejmImg {
+    margin-top: 50px; /* Ajusta el margen superior para evitar la superposición con la barra de navegación */
+    z-index: 999; /* Asegura que el encabezado h1 esté por encima de la barra de navegación */
+}
+.Table-3{
+    margin-top: 50px;
+}
+
+.navhome ul li a:hover
+{
+color: chocolate;
+background-color:midnightblue;
+}
+.navtable ul li a:hover
+{
+    color:hotpink;
+    background-color:darkolivegreen;
+}
+.navimages ul li a:hover {
+    color: yellow;
+    background-color: grey; 
 }
